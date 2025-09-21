@@ -72,7 +72,7 @@ fun GermanExamScreen(
 
     LaunchedEffect(showFeedback) {
         if (showFeedback) {
-            delay(2500)
+            delay(5000)
             if (currentQuestionIndex < questions.size - 1) {
                 currentQuestionIndex++
                 selectedAnswer = -1
